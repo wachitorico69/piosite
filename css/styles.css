@@ -1,0 +1,29 @@
+html, body {
+  overflow: hidden;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
+  position: relative;
+  display: block;
+}
+
+/*para que desaparezcan las bolitas azules*/
+.draggable {
+  --deckgo-drr-border: none;
+  --deckgo-drr-anchor-width: 0;
+  --deckgo-drr-rotate-anchor-action-border: 0;
+  --deckgo-drr-rotate-anchor-presentation-border-right: none;
+}
+
+.imagen {
+  position: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.redes {
+  position: fixed;
+  font-size: 2rem;
+}
